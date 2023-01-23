@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:viewBindingIgnore="true"
+    tools:context=".ui.main.fragment.more.MoreFragment"
+    android:background="@drawable/b1"
+
+    >
+
+    <TextView
+        android:id="@+id/textview_more_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_more_50dp"
+        android:layout_marginTop="20dp"
+
+        android:clickable="true"
+        android:drawableLeft="@drawable/exit"
+        android:gravity="center"
+        android:text="@string/text_more_exit"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF6F40"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_more_share_source_code" />
+
+    <TextView
+        android:id="@+id/textview_more_source_code"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_more_50dp"
+        android:layout_marginTop="348dp"
+
+        android:clickable="true"
+        android:drawableLeft="@drawable/rate"
+        android:gravity="center"
+        android:text="@string/text_more_rate"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_more_share_source_code"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_more_50dp"
+        android:layout_marginTop="20dp"
+
+        android:clickable="true"
+        android:drawableLeft="@drawable/share"
+        android:gravity="center"
+        android:text="@string/text_more_share_this_app"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_more_source_code" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:src="@drawable/circlelogo"
+        app:layout_constraintBottom_toTopOf="@+id/textview_more_source_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+ <resources>
+
+    <string name="label_app_name">Pahari Dictionary</string>
+    <string name="title_main_dictionary">Pahari-Urdu Dictionary</string>
+    <string name="label_home">Home</string>
+    <string name="label_favorite">Favourite</string>
+    <string name="label_history">History</string>
+    <string name="label_more">More</string>
+    <string name="label_home_no_result">No Results!</string>
+    <string name="label_home_type_word">Type the word …</string>
+    <string name="label_favorite_there_isnt_fav">No Favourites!</string>
+    <string name="label_history_no_history">No History!</string>
+    <string name="text_detail_ok">OK</string>
+    <string name="text_detail_no">Cancel</string>
+    <string name="text_history_clear_history">Clear</string>
+    <string name="text_more_rate">Rate us on PlayStore</string>
+    <string name="text_more_share_this_app">Share this app</string>
+    <string name="text_more_exit">Exit</string>
+    <string name="text_item_load_more" >Load More</string>
+    <string name="text_no_internet_explorer">No Internet Explorer</string>
+    <string name="text_share_via">Share Via</string>
+     <string name="hint_detail_persian_word">Pahari Word</string>
+     <string name="hint_detail_english_word">English Word</string>
+     <string name="hint_detail_italian_word">Pronunciation</string>
+     <string name="hint_detail_edit">Edit</string>
+
+ </resources>
