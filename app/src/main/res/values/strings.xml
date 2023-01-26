@@ -23,5 +23,7 @@
      <string name="hint_detail_english_word">English Word</string>
      <string name="hint_detail_italian_word">Pronunciation</string>
      <string name="hint_detail_edit">Edit</string>
+     <string name="description"><![CDATA[An effort to protect the ethnolect of the Pahari community of J&K. For quick reference and vocabulary building and to promote further development towards culture revitalization]]></string>
+     <string name="contentimg">logo</string>
 
  </resources>

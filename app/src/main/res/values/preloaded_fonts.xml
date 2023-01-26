@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/adamina</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aleo</item>
         <item>@font/almarai_bold</item>
         <item>@font/almarai_light</item>
+        <item>@font/amaranth_bold_italic</item>
     </array>
 </resources>
