@@ -26,7 +26,7 @@ class MoreFragment: Fragment(R.layout.fragment_more) {
 
         textview_more_source_code.setOnClickListener {
             //openViaCustomTab()
-            val uri: Uri = Uri.parse("market://details?id=com.")
+            val uri: Uri = Uri.parse("market://details?id=com.sumaim.pahariDictionary")
             val goToMarket = Intent(Intent.ACTION_VIEW, uri)
 
             goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
@@ -37,7 +37,7 @@ class MoreFragment: Fragment(R.layout.fragment_more) {
                 startActivity(goToMarket)
             }catch (e: ActivityNotFoundException){
                 startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://play.google.com/store/apps/details?id=com.")))
+                    Uri.parse("https://play.google.com/store/apps/details?id=com.sumaim.pahariDictionary")))
             }
         }
 
@@ -45,7 +45,7 @@ class MoreFragment: Fragment(R.layout.fragment_more) {
             ShareCompat.IntentBuilder.from(requireActivity())
                 .setType("text/plain")
                 .setChooserTitle(R.string.text_share_via)
-                .setText("https..")
+                .setText("https://play.google.com/store/apps/details?id=com.sumaim.pahariDictionary")
                 .startChooser()
         }
 
