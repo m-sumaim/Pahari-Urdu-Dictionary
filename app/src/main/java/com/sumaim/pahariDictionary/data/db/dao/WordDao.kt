@@ -19,10 +19,10 @@ interface WordDao{
     @Query("delete from word_tb")
     suspend fun deleteAllWords()
 
-    @Query("SELECT * FROM word_tb WHERE :persian like  '%%%%%%' || english_word  or :persian like english_word || '%%%%%'")
+    @Query("SELECT * FROM word_tb WHERE :persian like english_word  ")
     fun readEnglishWord(persian: String): LiveData<List<Word>>
 
-    @Query("SELECT * FROM word_tb WHERE :english like '%%%%%%' || persian_word  or :english like persian_word || '%%%%%'")
+    @Query("SELECT * FROM word_tb WHERE :english like persian_word  ")
     fun readPersianWord(english: String): LiveData<List<Word>>
 
     @Query("SELECT * FROM word_tb WHERE favorite = 1 ORDER BY fav_date DESC")
