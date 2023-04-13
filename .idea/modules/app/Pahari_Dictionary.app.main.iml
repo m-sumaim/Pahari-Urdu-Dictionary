@@ -25,6 +25,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/beb67566ab52c9ae6b6645ff2f6b3d65/jetified-room-ktx-2.2.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d4452f9cd2f9f2099a2509ee426389c6/jetified-fragment-ktx-1.2.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32161f00da5e0c41cc907b8ac3364fb1/jetified-activity-ktx-1.1.0-api.jar</arg>
